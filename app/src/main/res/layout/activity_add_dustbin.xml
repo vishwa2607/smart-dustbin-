@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F3C51"
+    tools:context=".AddDustbinActivity">
+
+    <EditText
+        android:id="@+id/index"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="655dp"
+        android:gravity="center"
+        android:hint="Index"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/did"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="595dp"
+        android:gravity="center"
+        android:hint="Dustbin id"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/lgid"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="329dp"
+        android:gravity="center"
+        android:hint="Kitchen Scrap"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/mno"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="401dp"
+        android:gravity="center"
+        android:hint="Mobile Number"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/prsn"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="473dp"
+        android:gravity="center"
+        android:hint="Person"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="531dp"
+        android:gravity="center"
+        android:hint="kitchen Scrap"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/ltid"
+        android:layout_width="324dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="265dp"
+        android:gravity="center"
+        android:hint="grascrap"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnid"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="135dp"
+        android:textColor="#ffffff"
+
+        android:hint="Submit" />
+
+
+</RelativeLayout>
